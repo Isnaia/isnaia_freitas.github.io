@@ -1,0 +1,196 @@
+html, body {
+    margin: 0;
+}
+header {
+    background-color: black;
+    width: 100%;
+    height: 12%;
+    position: fixed;
+    z-index: 10;
+
+}
+#menu{
+    float: right;
+    padding-right: 30%;
+    padding-left: 30%;
+    list-style: none;
+    margin-top: 4px;
+}
+#menu2{
+    float: right;
+    padding-left: 94%;
+    list-style: none;
+}
+li {
+    float: left;
+    padding: 20 10 20 10;
+}
+#li2{
+    float: left;
+    padding: 20 10 20 10;
+}
+li:hover {
+    background-color: #b7c2ce;
+}
+#acao {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+
+.botoes {
+    width: 5%;
+}  
+
+
+#imagem_fundo {
+    background: url("fundoF.jpg");
+    height: 100%;
+    text-align: center;
+    background-size: cover;
+
+}
+#titulo {
+    font-size: 80pt;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    padding-top: 20%;
+    font-size: 40px;
+}
+#subtitulo {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+
+#imgeco {
+    width: 70%;
+    height: 60%;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+
+#saneamento{
+    background-color: #576574;
+    color: white;
+    width: 70%;
+    padding-left:15%;
+    padding-right: 15%;
+    padding-bottom: 3%;
+    float: left;
+}
+#aguapotavel{
+    background-color: #b7c2ce;
+    width: 70%;
+    padding-left:15%;
+    padding-right: 15%;
+    padding-bottom: 3%;
+    float: left;
+}
+#aguatratada {
+    background-color: #576574;
+    color: white;
+
+    width: 70%;
+    padding-left:15%;
+    padding-right: 15%;
+    padding-bottom: 3%;
+    float: left;
+}
+#video1{
+    background-color: #b7c2ce;
+    width: 48%;
+    padding-left: 26%;
+    padding-right: 26%;
+    padding-bottom: 3%;
+    float: left;
+}
+#aguamineral{
+    background-color: #576574;
+    color: white;
+    width: 70%;
+    padding-left:15%;
+    padding-right: 15%;
+    padding-bottom: 3%;
+    float: left;
+}
+
+#video2 {
+    background-color: #b7c2ce;
+    padding: 0% 5%;
+    padding-bottom: 3%;
+    position: relative;
+    width: 40%;
+    float: left;
+}
+#sobre {
+    background-color: #576574;
+    color: white;
+    width: 70%;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    float: left;
+}
+footer {
+    float: left;
+    background-color: black;
+    color: white;
+    width: 70%;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+
+.centralizado{
+    text-align:center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.justificado{
+    text-align:justify;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+@media all and (max-width: 768px) {
+    header{
+        position: absolute;
+    }
+    #menu {
+        visibility: hidden;
+    }
+    #imgeco{
+        width: 100%;
+        height: 35%;
+        padding-left: 0%;
+        padding-right: 0%;
+    }
+
+    #video1{    
+        width: 70%;
+        padding-left: 15%;
+        padding-right: 15%;
+    
+    }
+    #video2 {
+        width: 70%;
+        padding-left: 15%;
+        padding-right: 15%;
+        padding-bottom: 3%;
+        position: relative;
+        
+        
+        
+    }
+
+       
+        
+      
+}
+    
